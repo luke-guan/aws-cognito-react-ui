@@ -40,7 +40,7 @@ That's it! Works out the box!
 
 ##### Customize the UX
 
-Look at the the source [code](src/auth-ui) or look at aws-cognito-core-ui [Basic Usage](https://github.com/luke-guan/aws-cognito-core-ui/docs/BasicUsage.md).
+Look at the the source [code](src/auth-ui) or look at aws-cognito-core-ui [Basic Usage](https://github.com/luke-guan/aws-cognito-core-ui).
 
 ##### Design Component Object for each screen
 
@@ -58,7 +58,7 @@ const LoadingUI = () => (
 
 ##### Link Component to your UX
 
-Reference the aws-cognito-core-ui [docs](https://github.com/luke-guan/aws-cognito-core-ui/docs) on what is needed to contruct each component.
+Reference the aws-cognito-core-ui [docs](https://github.com/luke-guan/aws-cognito-core-ui) on what is needed to contruct each component.
 
 ```javascript
 const MyScreenComponents = {
