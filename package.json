@@ -1,0 +1,64 @@
+{
+    "version": "1.0.0",
+    "name": "aws-cognito-react-ui",
+    "main": "dist/index.js",
+    "module": "dist/aws-cognito-react-ui.esm.js",
+    "typings": "dist/index.d.ts",
+    "author": "Luke Guan",
+    "description": "AWS Cognito React UI Package",
+    "files": [
+        "dist"
+    ],
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "start": "tsdx watch",
+        "build": "tsdx build",
+        "test": "tsdx test",
+        "lint": "tsdx lint",
+        "prepare": "tsdx build"
+    },
+    "peerDependencies": {},
+    "husky": {
+        "hooks": {
+            "pre-commit": "tsdx lint"
+        }
+    },
+    "prettier": {
+        "printWidth": 80,
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "es5"
+    },
+    "devDependencies": {
+        "@types/qrcode.react": "^1.0.1",
+        "@types/react": "^16.9.49",
+        "husky": "^4.2.5",
+        "tsdx": "^0.13.3",
+        "tslib": "^2.0.1",
+        "typescript": "^4.0.2"
+    },
+    "license": "MIT",
+    "keywords": [
+        "aws",
+        "cognito",
+        "react",
+        "ui",
+        "authentication",
+        "typescript",
+        "hooks"
+    ],
+    "homepage": "https://github.com/luke-guan/aws-cognito-react-ui",
+    "bugs": {
+        "url": "https://github.com/luke-guan/aws-cognito-react-ui/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luke-guan/aws-cognito-react-ui.git"
+    },
+    "dependencies": {
+        "aws-cognito-core-ui": "^1.0.0",
+        "qrcode.react": "^1.0.0"
+    }
+}
